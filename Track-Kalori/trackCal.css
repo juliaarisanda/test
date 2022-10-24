@@ -1,0 +1,303 @@
+/* Nav */
+nav img{
+    width: 54px;
+}
+nav ul li .nav-link{ 
+    font-family: 'Nunito Sans', sans-serif;
+    color: #11999E !important;
+}
+nav .navbar-brand{
+    padding-left: 10px;
+}
+main h1{
+    font-weight: 950;
+    padding-top: 5rem;
+    font-family: 'Nunito', sans-serif;
+}
+nav .nav-item .btn{
+    background-color: #11999E !important;
+    border-color: #11999E !important;
+}
+nav .container-fluid{
+    background-color: transparent !important;
+}
+@media only screen and (max-width: 991px){
+    #toggle{
+        padding: 10px;
+        background-color: white !important;
+    }
+}
+
+/* main */
+main .container-fluid{
+    box-shadow: 0px 2px 15px rgb(165, 165, 165);
+    background: linear-gradient(to top, #AFEFE3 , white 90%);
+}
+.container-fluid .section-atas{
+    display: flex;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+.backIcon a{
+    color: #11999E;
+}
+.teks{
+    padding-top: 3rem;
+}
+.teks h6{
+    color: #11999E;
+    font-weight: bold;
+    font-size: 32px;
+}
+.teks p{
+    font-size: 18px;
+    color: #11999E;
+    font-weight: lighter;
+}
+.container-fluid .section-track-kal{
+    display: flex;
+    padding-bottom: 2rem;
+}
+.track-left{
+    max-width: 900px;
+}
+.track-right{
+    max-width: 300px;
+}
+.card{
+    box-shadow: 0px 2px 15px rgb(165, 165, 165);
+    border-radius: 0.8rem;
+    height: 400px;
+    background-color: #E4F9F6;
+}
+.heading-card{
+    padding: 1rem;
+    
+    color: #11999E;
+}
+.card-title{
+    color: #11999E;
+}
+
+
+.track-left
+{
+	border-top: 1px solid #f9f9f9;
+}
+
+.track-left:last-child { margin-bottom: -30px; }
+
+
+.chart-item
+{
+	position: relative;
+	max-width: 250px;
+	width: 100%;
+    padding: 1rem;
+    margin: 2rem 8rem;
+}
+
+.chart-container
+{
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-top: 100%;
+	margin-bottom: 27px;
+    text-align: center;
+}
+
+.chart-item .chart,
+.chart-item .chart canvas
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.chart-item .chart:before
+{
+	content: "";
+	width: 0;
+	height: 100%;
+}
+
+.chart-item .chart:before,
+.chart-item .percent
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.chart-item .percent
+{
+	position: relative;
+	line-height: 1;
+	font-size: 25px;
+	font-weight: 700;
+	z-index: 2;
+    padding: 2rem;
+}
+
+.chart-item  .percent:after
+{
+	content: attr(data-after);
+	font-size: 20px;
+}
+       
+       p{
+           font-weight: 900;
+       }
+
+
+/* card right*/
+.track-right
+{
+	border-top: 1px solid #f9f9f9;
+}
+
+.track-right:last-child { margin-bottom: -30px; }
+
+
+.chart-item-right
+{
+	position: relative;
+	max-width: 80px;
+	width: 100%;
+    padding: 1rem;
+    margin: 0.25rem 0.25rem 0.5rem 0.25rem;
+    
+}
+
+.chart-container-right
+{
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-top: 100%;
+	margin-bottom: 8px;
+    margin-left: 2.5rem;
+    text-align: center;
+}
+
+.chart-item-right .chart-right,
+.chart-item-right .chart-right canvas
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.chart-item-right .chart-right:before
+{
+	content: "";
+	width: 0;
+	height: 100%;
+}
+
+.chart-item-right .chart-right:before,
+.chart-item-right .percent
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.chart-item-right .percent
+{
+	position: relative;
+	line-height: 1;
+	font-size: 7px;
+	font-weight: 700;
+	z-index: 2;
+    
+}
+
+.chart-item-right  .percent:after
+{
+	content: attr(data-after);
+	font-size: 8px;
+}
+.jumlah-nutrisi{
+    font-weight: bold;
+    font-size: small;
+    padding-left: 2.5rem;
+    
+}
+.keterangan-nutrisi{
+    font-weight: lighter;
+    font-size: small;
+    padding-left: 2.5rem;
+}
+
+/* Section Bawah */
+.section-bawah{
+    padding: 2rem ;
+    place-items: center;
+}
+button{
+    background-color: #11999E;
+    color: white;
+    border-radius: 1rem;
+    border-color: #11999E;
+    font-size: large;
+   
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+button a:hover{
+    color: #AFEFE3;
+}
+.detail a{
+    color: #E85D24;
+    text-decoration: none;
+}
+.detail{
+    padding: 1.5rem;
+    font-weight: 600;
+}
+.detail a:hover{
+    color: white;
+}
+
+
+
+/* Footer */
+footer .kiri img{
+    width: 75px;
+} 
+footer .kanan img{
+    width: 110px;
+}
+footer .container-fluid{
+    padding-top: 20px;
+    background-color: #40514E;
+    display: flex;
+}
+footer .kanan{
+    color: aliceblue;
+    width: 33%;
+}
+footer .kiri{
+    color: aliceblue;
+    width: 33%;
+}
+footer .tengah{
+    color: aliceblue;
+    width: 33%;
+}
+footer .kiri h5{
+    padding-top: 10px;
+    color: #11999E;
+}
+footer .kiri .medsos{
+    color: aliceblue;
+} 
+footer .container-fluid{
+    padding-bottom: 10px;
+}
